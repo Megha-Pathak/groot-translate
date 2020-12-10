@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #16abd6;
+  --black: #000;
+  --width-break: 600px;
+}
+
+body {
+  margin: 0;
+  font-family: "Architects Daughter", cursive;
+  color: #333333;
+  background-image: url(groot-image.jpg);
+  background-repeat: no-repeat;
+  background-color: var(--black);
+  background-size: 100vmax;
+}
+
+h1 {
+  margin-top: 0;
+  background-color: var(--primary);
+  text-align: center;
+  background-color: var(--black);
+  color: aliceblue;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  border-radius: 3rem;
+}
+
+#output-text {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid var(--black);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--black);
+  color: aliceblue;
+  text-align: center;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
