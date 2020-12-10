@@ -7,7 +7,7 @@ var serverURL = "	https://api.funtranslations.com/translate/groot.json";
 function errorHandler(error) {
   console.log("there is some issue with the API", error);
   alert(
-    "Groot are not available to translate your text right now. Try again later."
+    "Groot is not available to translate your text right now. Try again later."
   );
 }
 
